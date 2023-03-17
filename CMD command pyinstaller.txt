@@ -1,0 +1,1 @@
+pyinstaller --name=email_sender --onefile -w outlook_email_automate.py

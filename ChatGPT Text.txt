@@ -1,0 +1,6 @@
+Create a python code that loops through the rows of the "tbl_EMAIL_LIST"
+table in the "distribution_list“" worksheet. For each row, use the "Email Receiver"
+column for the recipient, "Email CC" for the CC. 
+Take the subject and email body from worksheet "Email" from The columns "Subject" and "Body" respectively. Replace the  {NAME} placeholder with Name from "distribution_list" worksheet and {ATTACHMENT} placeholder with the corresponding value in the "Attachment" column. Also, attach the file found in the
+"attachments" folder of the workbook's directory, using the "Attachment" column
+to concatenate the file path. Display the email using Outlook, I will manually sent it.
